@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Види автомобілів</title>
+    <meta name="author" content="Мазуренко Юрій">
+    <style>
+        p {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+            line-height: 1.5;
+        }
+        a {
+            color: rgb(179, 0, 255);
+        }
+        body {
+            background-color: #bee1e4;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: lightgray;
+        }
+        table {
+            cellspacing: 10px;
+            cellpadding: 10px;
+        }
+        .floating-frame {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Різноманітні моделі автомобілів</h1>
+    <p>На цій сторінці представлена інформація про різноманітні моделі автомобілів, що присутні на ринку.</p>
+    <p>Автомобільні компанії продукують різні моделі, які відрізняються за розміром, характеристиками та ціною.</p>
+    <p>Ви можете знайти інформацію про відомі бренди автомобілів, такі як Audi, BMW, Mercedes-Benz, Toyota, Honda, та інші.</p>
+    <p><a href="index.html" class="link">Перейти до головної сторінки</a></p>
+    <p><a href="page2.html" class="link">Перейти до Технічні характеристики</a></p>
+    <p><a href="page3.html" class="link">Перейти до Історія розвитку</a></p>
+
+    <h2>Таблиця з характеристиками автомобілів:</h2>
+    <table>
+        <colgroup>
+            <col span="1" style="background-color:lightblue">
+            <col span="2" style="background-color:lightgreen">
+        </colgroup>
+        <thead>
+            <tr>
+                <th rowspan="2">Марка</th>
+                <th colspan="2">Характеристики</th>
+            </tr>
+            <tr>
+                <th>Потужність</th>
+                <th>Вартість</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Audi A4</td>
+                <td>190 к.с.</td>
+                <td>$40,000</td>
+            </tr>
+            <tr>
+                <td>250 к.с.</td>
+                <td rowspan="2">$45,000</td>
+            </tr>
+            <tr>
+                <td>204 к.с.</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Toyota Camry</td>
+                <td>203 к.с.</td>
+                <td>$35,000</td>
+            </tr>
+            <tr>
+                <td>203 к.с.</td>
+                <td>$35,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="floating-frame">
+        <h2>Плаваючий фрейм</h2>
+        <p>ІП-23 Мазуренко Юрій</p>
+    </div>
+</body>
+</html>
