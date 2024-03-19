@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a4eaf0;
+}
+nav {
+    background-color: #000000 !important; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+}
+nav ul li {
+    float: left; 
+}
+
+nav ul li a {
+    display: block; 
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+
+nav ul li a:hover {
+    background-color: #ffffff !important; 
+}
+
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    font-style: italic;
+    line-height: 1.2;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+a {
+    color: rgb(179, 0, 255);
+}
+
+.abz {
+    font-style: normal;
+}
+
+ul {
+    list-style-type: disc; 
+    margin-left: 20px; 
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+
+ol {
+    list-style-type: decimal; 
+    margin-left: 20px; 
+    color: #333; 
+    font-family: Arial, sans-serif; 
+}
+
+dl {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    color: #333; 
+    font-family: Arial, sans-serif; 
+}
+
+
+
+dd {
+    margin-left: 20px; 
+}
+
+table {
+    width: 80%; 
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    color: #333; 
+    font-family: Arial, sans-serif; 
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+th {
+    background-color: lightgray; 
+}
+
+.floating-frame {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.car-features {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.car-features h2 {
+    color: #333;
+}
+
+.car-showcase {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.car-brand {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.car-brand img {
+    width: 400px; 
+    height: auto; 
+}
+.car-brand h3 {
+    color: #333;
+}
+
+.car-brand p {
+    color: #666;
+}
+
+footer {
+    background-color: #abcdf1;
+    color: #fff;
+    text-align: center;
+    padding: 10px;  
+}
+.main_h {
+   
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.brands{
+    text-align: center;
+}
