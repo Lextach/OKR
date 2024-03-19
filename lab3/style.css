@@ -74,7 +74,9 @@ dl {
     font-family: Arial, sans-serif; 
 }
 
-
+dt {
+    font-weight: bold; 
+}
 
 dd {
     margin-left: 20px; 
@@ -157,6 +159,6 @@ footer {
     text-align: center;
     padding: 20px;
 }
-.brands{
+#brands {
     text-align: center;
 }
