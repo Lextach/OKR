@@ -151,7 +151,7 @@ footer {
     padding: 10px;  
 }
 .main_h {
-   
+  
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -168,10 +168,6 @@ h1 + p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-.main_h > h1 {
-    font-size: 24px;
-    color: #eb0707;
-}
 .car-showcase > .car-brand {
     float: left;
     width: 30%;
@@ -180,3 +176,40 @@ h1 + p {
 dt + dd{
     color: #7c1c6f;
 }
+
+nav ul li a:link {
+    color: #c53232;
+}
+
+nav ul li a:visited {
+    color: #4cca5d; 
+}
+
+nav ul li a:hover {
+    background-color: #476489; 
+}
+
+nav ul li a:active {
+    color: rgb(0, 0, 0);
+}
+
+nav ul li:first-child a {
+    font-weight: bold;
+}
+
+nav ul li a:before {
+    content: "> "; 
+}
+
+nav ul li a:after {
+    content: " <";
+}
+span{
+    color: #e01667;
+}
+.history-image {
+    float: right; 
+}
+
+
+
