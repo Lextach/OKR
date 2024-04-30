@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Головна сторінка - Автомобілі</title>
+    <meta name="author" content="Мазуренко Юрій">
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна сторінка</a></li>
+            <li><a href="type.html">Види автомобілів</a></li>
+            <li><a href="characteristics.html">Технічні характеристики</a></li>
+            <li><a href="history.html">Історія розвитку</a></li>
+        </ul>
+    </nav>
+    <script>
+        function customAlert(message) {
+            alert(message);
+        }  
+        function customPrompt() {
+            var userInput = prompt("Введіть ваші дані:");
+            return userInput;
+        } 
+        function customConfirm() {
+            var userResponse = confirm("Ви впевнені?");
+            return userResponse;
+        }
+
+        customAlert("Це повідомлення для користувача!");
+
+        var userData = customPrompt();
+        console.log("Дані користувача:", userData);
+
+
+        var userConfirmation = customConfirm();
+        console.log("Користувач впевнений?", userConfirmation);
+    </script>
+   
+</head>
+<body>
+    <h1 id="delete">123456</h1>
+    <header class="main_h">
+        <h1>Ласкаво просимо на сайт про автомобілі</h1>
+        <p>Ви можете знайти інформацію про найновітніші моделі автомобілів, технічні характеристики та історію розвитку.</p>
+    </header>
+
+    <section class="car-features">
+        <h2>Головні особливості нашого сайту</h2>
+        <ul>
+            <li>Новини про автомобільну індустрію</li>
+            <li>Огляди та рейтинги найкращих моделей</li>
+            <li>Історія створення брендів-гігантів</li>
+        </ul>
+    </section>
+    <h2 id="brands">Популярні автомобільні бренди</h2>
+    <section class="car-showcase">
+        
+        <div class="car-brand">
+            <img src="https://focus.ua/static/storage/thumbs/920x465/a/b5/1f1a6e5d-de7a765ee9eecf996a065364992beb5a.jpeg?v=6156_1" alt="Audi">
+            <h3>Audi</h3>
+            <p>Німецький автовиробник з багатою історією та високою якістю.</p>
+        </div>
+        <div class="car-brand">
+            <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/X5-2023/10452/1688992642182/front-left-side-47.jpg" alt="BMW">
+            <h3>BMW</h3>
+            <p>Легендарний бренд з відмінними динамічними характеристиками.</p>
+        </div>
+        <div class="car-brand">
+            <img src="https://i.infocar.ua/i/2/6241/118625/1024x.jpg    " alt="Mercedes-Benz">
+            <h3>Mercedes-Benz</h3>
+            <p>Знаменитий німецький виробник автомобілів преміум-класу.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Мазуренко Юрій</p>
+    </footer>
+    <h2 id="lab">Лабораторна 6</h2>
+
+    <script src="index.js">
+</script>
+</body>
+</html>
