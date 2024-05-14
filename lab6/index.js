@@ -49,10 +49,10 @@ setTimeout(function() {
 }, 1000000);
 userDialog();
 
-displayDeveloperInfo("Мазуренко", "Юрій", "Веб-розробник");
+displayDeveloperInfo("Мазуренко", "Юрій");
 
-var string1 = "apple";
-var string2 = "banana";
+var string1 = "BMW";
+var string2 = "Audi";
 
 compareStrings(string1, string2)
 

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Технічні характеристики</title>
+    <meta name="author" content="Мазуренко Юрій">
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна сторінка</a></li>
+            <li><a href="type.html">Види автомобілів</a></li>
+            <li><a href="characteristics.html">Технічні характеристики</a></li>
+            <li><a href="history.html">Історія розвитку</a></li>
+        </ul>
+    </nav>
+    <style>
+        body a{
+            color: rgb(6, 117, 228);
+        }
+        .highlight {
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Технічні характеристики автомобілів</h1>
+    <p>Тут можна знайти технічні характеристики різних моделей автомобілів.</p>
+    <h2>Таблиця з характеристиками автомобілів:</h2>
+    <table>
+        <thead style="background-color: lightblue;">
+            <tr>
+                <th>Картинка</th>
+                <th>Гіперпосилання</th>
+                <th>Текст</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="jpg/background.jpg" alt="Tesla" width="50" height="50"></td>
+                <td><a href="http://surl.li/rfvya" target="_blank">Tesla</a></td>
+                <td >
+                    <strong class="tesla">Tesla</strong><br>
+                    <ul>
+                        <li><strong>Потужність двигуна:</strong> 670 к.с.</li>
+                        <li><strong>Розгін до 100 км/год:</strong> 2.4 секунди</li>
+                        <li><strong>Максимальна швидкість:</strong> 250 км/год</li>
+                        <li><strong>Дальність ходу на одному заряді:</strong> 610 км</li>
+                        <li><strong>Система керування:</strong> електромеханічна</li>
+                        <li><strong>Кількість місць:</strong> 5</li>
+                        <li><strong>Об'єм багажника:</strong> 894 літри</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="jpg/background.jpg" alt="BMW" width="50" height="50"></td>
+                <td><a href="http://surl.li/rfvya" target="_blank">BMW</a></td>
+                <td>
+                    <strong class="bmw">BMW</strong><br>
+                    <ul>
+                        <li><strong>Потужність двигуна:</strong> 670 к.с.</li>
+                        <li><strong>Розгін до 100 км/год:</strong> 2.4 секунди</li>
+                        <li><strong>Максимальна швидкість:</strong> 250 км/год</li>
+                        <li><strong>Дальність ходу на одному заряді:</strong> 610 км</li>
+                        <li><strong>Система керування:</strong> електромеханічна</li>
+                        <li><strong>Кількість місць:</strong> 5</li>
+                        <li><strong>Об'єм багажника:</strong> 894 літри</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="jpg/background.jpg" alt="Jaguar" width="50" height="50"></td>
+                <td><a href="http://surl.li/rfvya" target="_blank">Jaguar</a></td>
+                <td>
+                    <strong class="jaguar">Jaguar</strong><br>
+                    <ul id="Jaguar">
+                        <li><strong>Потужність двигуна:</strong> 670 к.с.</li>
+                        <li><strong>Розгін до 100 км/год:</strong> 2.4 секунди</li>
+                        <li><strong>Максимальна швидкість:</strong> 250 км/год</li>
+                        <li><strong>Дальність ходу на одному заряді:</strong> 610 км</li>
+                        <li><strong>Система керування:</strong> електромеханічна</li>
+                        <li><strong>Кількість місць:</strong> 5</li>
+                        <li><strong>Об'єм багажника:</strong> 894 літри</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+    <div id="menu">
+        <button class="menu-button" data-action="scrollToTop">Повернутися до початку</button>
+        <button class="menu-button" data-action="scrollToBottom">Прокрутити до кінця</button>
+    </div>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function scrollToBottom() {
+            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        }
+
+        document.getElementById('menu').addEventListener('click', function(event) {
+            if (event.target.classList.contains('menu-button')) {
+                var action = event.target.getAttribute('data-action');
+                window[action]();
+            }
+        });
+    </script>
+</body>
+</html>
